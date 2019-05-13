@@ -7,12 +7,15 @@ import us.codecraft.newsSpider.pipeline.MySqlPipeline;
 
 public class PeopleCNPageProcessor implements PageProcessor{
 
-    public static final String SiteURL = "http://politics.people.com.cn"; // politics
+    private static final String SiteURL = "http://politics.people.com.cn"; // politics
 
     // settings - encoding, spider time slot, retry times...
     private Site site = Site.me().setRetryTimes(3).setSleepTime(1000).setDomain(SiteURL);
 
-
+    /**
+     * Spi the article pages.
+     * @param page page
+     */
     @Override
     public void process(Page page) {
         News news = new News("时政");
@@ -30,6 +33,7 @@ public class PeopleCNPageProcessor implements PageProcessor{
             }
             news.setIntroduction(intro.trim());
         } else { // match article list
+            page.addTargetRequests(page.getHtml().xpath("/html/body/div[10]/h1/a/@href").all());
             page.addTargetRequests(page.getHtml().xpath("/html/body/div[11]/div[2]/div/h4/a/@href").all());
             page.addTargetRequests(page.getHtml().xpath("/html/body/div[11]/div[2]/div/ul/li/a/@href").all());
         }
