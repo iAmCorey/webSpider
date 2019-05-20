@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b45b1ef-40fe-47af-97ea-a939ccdefe7c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/us/codecraft/newsSpider/pipeline/MySqlPipeline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/us/codecraft/newsSpider/pipeline/MySqlPipeline.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/us/codecraft/newsSpider/processor/PeopleCNPageProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/us/codecraft/newsSpider/processor/PeopleCNPageProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/us/codecraft/newsSpider/pipeline/FilePipeline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/us/codecraft/newsSpider/pipeline/FilePipeline.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -50,15 +48,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/us/codecraft/newsSpider/processor/PeopleCNPageProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="228">
+              <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1999#2000#0" expanded="true" />
-                <element signature="e#2026#2027#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/us/codecraft/newsSpider/pipeline/FilePipeline.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="29" column="52" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
+              <folding>
+                <element signature="e#786#787#0" expanded="true" />
+                <element signature="e#831#832#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -76,7 +85,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/us/codecraft/newsSpider/pipeline/MySqlPipeline.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
+            <state relative-caret-position="450">
               <caret line="40" column="101" selection-start-line="40" selection-start-column="101" selection-end-line="40" selection-end-column="101" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -89,7 +98,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/us/codecraft/newsSpider/pipeline/ConsolePipeline.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="22" column="11" lean-forward="true" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+              <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -147,6 +156,7 @@
         <option value="$PROJECT_DIR$/src/main/java/us/codecraft/newsSpider/processor/PeopleCNPageProcessor.java" />
         <option value="$PROJECT_DIR$/src/main/java/us/codecraft/newsSpider/pipeline/MySqlPipeline.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/1c26ab43-b1ac-47b9-87fb-14f2d436b487/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/us/codecraft/newsSpider/pipeline/FilePipeline.java" />
       </list>
     </option>
   </component>
@@ -168,7 +178,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -224,7 +234,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -318,23 +328,25 @@
       <workItem from="1557496448236" duration="18554000" />
       <workItem from="1557717192308" duration="226000" />
       <workItem from="1557717533828" duration="2241000" />
+      <workItem from="1558318758372" duration="62000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21021000" />
+    <option name="totallyTimeSpent" value="21083000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21805556" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21805556" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Image Layers" order="6" />
+      <window_info anchor="bottom" id="CheckStyle" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32950193" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.29118773" />
@@ -448,16 +460,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/us/codecraft/newsSpider/pipeline/FilePipeline.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
-          <folding>
-            <element signature="e#817#818#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/us/codecraft/newsSpider/model/News.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -500,16 +502,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/us/codecraft/newsSpider/values/siteUrl.tld" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/us/codecraft/newsSpider/model/MySqlConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="17" column="73" selection-start-line="17" selection-start-column="73" selection-end-line="17" selection-end-column="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/us/codecraft/newsSpider/processor/SimplePageProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -524,6 +516,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/us/codecraft/newsSpider/processor/PeopleCNPageProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/us/codecraft/newsSpider/values/siteUrl.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -534,11 +536,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/us/codecraft/newsSpider/pipeline/MySqlPipeline.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
+        <state relative-caret-position="450">
           <caret line="40" column="101" selection-start-line="40" selection-start-column="101" selection-end-line="40" selection-end-column="101" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/us/codecraft/newsSpider/pipeline/ConsolePipeline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -549,21 +558,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/us/codecraft/newsSpider/pipeline/ConsolePipeline.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/us/codecraft/newsSpider/model/MySqlConnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="22" column="11" lean-forward="true" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+        <state relative-caret-position="195">
+          <caret line="17" column="73" selection-start-line="17" selection-start-column="73" selection-end-line="17" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/us/codecraft/newsSpider/processor/PeopleCNPageProcessor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/us/codecraft/newsSpider/pipeline/FilePipeline.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="261">
+          <caret line="29" column="52" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1999#2000#0" expanded="true" />
-            <element signature="e#2026#2027#0" expanded="true" />
+            <element signature="e#786#787#0" expanded="true" />
+            <element signature="e#831#832#0" expanded="true" />
           </folding>
         </state>
       </provider>

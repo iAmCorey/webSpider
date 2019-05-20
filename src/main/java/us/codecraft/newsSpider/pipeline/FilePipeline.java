@@ -27,7 +27,7 @@ public class FilePipeline extends FilePersistentBase implements Pipeline {
      * create a FilePipeline with default path"~/data/newsSpider/"
      */
     public FilePipeline() {
-        setPath("~/data/newsSpider/");
+        setPath("/Users/Personal/Desktop/spiderData/");
     }
 
     public FilePipeline(String path) {
